@@ -1,0 +1,2 @@
+[Output using 2 processes: mpirun -n 2 ./send-recv]
+Process 1 received number -1 from process 0

@@ -1,0 +1,11 @@
+[Output with 2 processes: mpirun -n 2 ./check-status]
+0 sent 87 numbers to 1
+1 received 87 numbers from 0. Message source = 0, tag = 0
+
+[Output with 2 processes: mpirun -n 4 ./check-status]
+Must use two processes for this example
+Must use two processes for this example
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+Must use two processes for this example
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+

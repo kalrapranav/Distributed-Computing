@@ -1,0 +1,50 @@
+[Output with 10 processes: mpirun -n 10 ./ping-pong]
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+
+---------------------------------------------------------------
+[Output with 2 processes: mpirun -n 2 ./ping-pong]
+0 sent and incremented ping_pong_count 1 to 1
+1 received ping_pong_count 1 from 0
+0 received ping_pong_count 2 from 1
+0 sent and incremented ping_pong_count 3 to 1
+0 received ping_pong_count 4 from 1
+0 sent and incremented ping_pong_count 5 to 1
+1 sent and incremented ping_pong_count 2 to 0
+1 received ping_pong_count 3 from 0
+1 sent and incremented ping_pong_count 4 to 0
+1 received ping_pong_count 5 from 0
+1 sent and incremented ping_pong_count 6 to 0
+1 received ping_pong_count 7 from 0
+0 received ping_pong_count 6 from 1
+0 sent and incremented ping_pong_count 7 to 1
+0 received ping_pong_count 8 from 1
+0 sent and incremented ping_pong_count 9 to 1
+0 received ping_pong_count 10 from 1
+1 sent and incremented ping_pong_count 8 to 0
+1 received ping_pong_count 9 from 0
+1 sent and incremented ping_pong_count 10 to 0
+
+---------------------------------------------------------------
+[Output with 1 processes: mpirun -n 1 ./ping-pong]
+World size must be two for ./ping-pong
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+

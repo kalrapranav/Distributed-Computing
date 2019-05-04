@@ -1,0 +1,5 @@
+[This output is using 4 porcesses: mpirun -n 4 ./hello]
+Hello world from processor mixcoatl.sdsu.edu, rank 1 out of 4 processors
+Hello world from processor mixcoatl.sdsu.edu, rank 2 out of 4 processors
+Hello world from processor mixcoatl.sdsu.edu, rank 3 out of 4 processors
+Hello world from processor mixcoatl.sdsu.edu, rank 0 out of 4 processors

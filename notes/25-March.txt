@@ -1,0 +1,13 @@
+R running
+C Completed 
+qstat - to know twh status 
+exec_host = cn02-0/0+cn02-0/1+cn02-0/2+cn02-0/3+cn09-0/0+cn09-0/1+cn09-0/2
+        +cn09-0/3+cn08-0/0+cn08-0/1+cn08-0/2+cn08-0/3+cn07-0/0+cn07-0/1+cn07-0
+        /2+cn07-0/3
+cn are the cores on that machine 
+.sdb
+
+./submit 3dMinute '' 3DFrioLessY 16
+To submit a job; nameOfFile '' gridFileName
+
+Geologic Subsurface Co2 injection

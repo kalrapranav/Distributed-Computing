@@ -1,0 +1,3 @@
+mpirun -n 2 ./probe
+0 sent 93 numbers to 1
+1 dynamically received 93 numbers from 0.

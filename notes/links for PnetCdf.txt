@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/19320942/how-do-i-use-parallel-i-o-with-netcdf-4
+https://cran.r-project.org/web/packages/pbdNCDF4/vignettes/pbdNCDF4-guide.pdf
+http://cucis.ece.northwestern.edu/projects/PnetCDF/
+https://trac.mcs.anl.gov/projects/parallel-netcdf
+
+
+The ultimate guide to Full Stack Web Development
+https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
