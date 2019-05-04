@@ -28,6 +28,6 @@
       </li>
     </ul>
 
-    <img src="images/parllel-write.jpg">
+    ![parllel-write](https://user-images.githubusercontent.com/19777060/57171544-1a164800-6dca-11e9-94bf-4e0c1b2f96b0.jpg)
   </div>
 </div>
