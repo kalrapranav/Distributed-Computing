@@ -13,12 +13,9 @@ Parllel File Writing
 Some suggestions for more efficiency:
 
 * You can consult the status object for how many bytes were written, instead of getting the position and translating into bytes.
+* If you have the memory to hold all the data before you write, you could describe your I/O with an MPI datatype (admittedly, one that might end up being a pain to create). Then all processes would issue a single collective call.
+* You should use collective I/O instead of independent I/O. A "quality library" should be able to give you equal if not better performance (and if not, you could raise the issue with your MPI implementation).
+* If the processes have different amounts of data to write, MPI_EXSCAN is a good way to collect who has what data. Then you can call MPI_FILE_WRITE_AT_ALL to the correct offset in the file
       
-
-
-      * You can consult the status object for how many bytes were written, instead of getting the position and translating into bytes.
-      * If you have the memory to hold all the data before you write, you could describe your I/O with an MPI datatype (admittedly, one that might end up being a pain to create). Then all processes would issue a single collective call.
-      * You should use collective I/O instead of independent I/O. A "quality library" should be able to give you equal if not better performance (and if not, you could raise the issue with your MPI implementation).
-      * If the processes have different amounts of data to write, MPI_EXSCAN is a good way to collect who has what data. Then you can call MPI_FILE_WRITE_AT_ALL to the correct offset in the file
 
 ![parllel-write](https://user-images.githubusercontent.com/19777060/57171544-1a164800-6dca-11e9-94bf-4e0c1b2f96b0.jpg)
