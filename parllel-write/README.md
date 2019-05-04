@@ -11,6 +11,11 @@ Parllel File Writing
  [href="https://stackoverflow.com/questions/37838228/mpi-i-o-mix-of-single-and-multiple-process-output] (href="https://stackoverflow.com/questions/37838228/mpi-i-o-mix-of-single-and-multiple-process-output) 
 
 Some suggestions for more efficiency:
+
+* You can consult the status object for how many bytes were written, instead of getting the position and translating into bytes.
+      
+
+
       * You can consult the status object for how many bytes were written, instead of getting the position and translating into bytes.
       * If you have the memory to hold all the data before you write, you could describe your I/O with an MPI datatype (admittedly, one that might end up being a pain to create). Then all processes would issue a single collective call.
       * You should use collective I/O instead of independent I/O. A "quality library" should be able to give you equal if not better performance (and if not, you could raise the issue with your MPI implementation).
