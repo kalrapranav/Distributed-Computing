@@ -3,6 +3,12 @@
   The following program allows multiple processors to write on a same binary file using MPI-IO
 </p>
 <div>
+  <h2>Working:</h2>
+  <p>
+    The follwing program write data to a binary file via MPI I/O. I need process 0 to write a short header, then I need the whole range of processes to write their own pieces of the array indicated by the header. Then I need process 0 to write another header, followed by all processes writing their pieces of the next array, etc. 
+  </p>
+</div>
+<div>
   <div>
     Source: <a href="https://stackoverflow.com/questions/37838228/mpi-i-o-mix-of-single-and-multiple-process-output">https://stackoverflow.com/questions/37838228/mpi-i-o-mix-of-single-and-multiple-process-output</a>
   </div>
