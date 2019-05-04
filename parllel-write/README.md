@@ -18,4 +18,4 @@ Some suggestions for more efficiency:
 * If the processes have different amounts of data to write, MPI_EXSCAN is a good way to collect who has what data. Then you can call MPI_FILE_WRITE_AT_ALL to the correct offset in the file
       
 
-![parllel-write](https://user-images.githubusercontent.com/19777060/57171544-1a164800-6dca-11e9-94bf-4e0c1b2f96b0.jpg)
+![parllel-write](https://user-images.githubusercontent.com/19777060/57171781-ade91380-6dcc-11e9-863d-1f4ef105095f.jpg)
