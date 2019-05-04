@@ -28,6 +28,7 @@
       </li>
     </ul>
 
-    ![parllel-write](https://user-images.githubusercontent.com/19777060/57171544-1a164800-6dca-11e9-94bf-4e0c1b2f96b0.jpg)
+    
   </div>
 </div>
+![parllel-write](https://user-images.githubusercontent.com/19777060/57171544-1a164800-6dca-11e9-94bf-4e0c1b2f96b0.jpg)
