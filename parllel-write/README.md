@@ -20,5 +20,5 @@ Some suggestions for more efficiency:
       ---
       ---
       ---    
-
+      ## Visualizing
 ![parllel-write](https://user-images.githubusercontent.com/19777060/57171805-f1438200-6dcc-11e9-91b7-c23a3be438c0.jpg)
