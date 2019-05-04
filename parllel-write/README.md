@@ -28,5 +28,6 @@
       </li>
     </ul>
 
+    <img src="images/parllel-write.jpg">
   </div>
 </div>
