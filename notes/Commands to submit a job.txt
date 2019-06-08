@@ -1,0 +1,13 @@
+qsub             submit a pbs job       qsub [script]
+qstat            show status of pbs batch jobs  qstat [job_id]
+qdel             delete pbs batch job   qdel [job_id]
+qhold            hold pbs batch jobs    qhold [job_id]
+qrls             release hold on pbs batch jobs qrls [job_id]
+qstat -q         list all queues
+qstat -a         list all jobs
+qstat -au userid list jobs for userid
+qstat -r         list running jobs
+qstat -f job_id  list full information about job_id
+qstat -Qf queue  list full information about queue
+qstat -B         list summary status of the job server
+pbsnodes         list status of all compute nodes
